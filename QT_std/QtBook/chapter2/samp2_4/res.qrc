@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/120.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/new.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/103.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/exit.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/paste.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/2021104113442.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/2021104113447.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/2021104113643.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/20.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/WORDUNDR.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/open3.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/itl.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/BLD.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/cut.png</file>
+        <file>D:/GAME_yuanshen/Genshin Impact Game/ScreenShot/20211127084526.png</file>
+    </qresource>
+</RCC>

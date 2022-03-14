@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Imge">
+        <file>pic/huangnv.png</file>
+        <file>pic/me.png</file>
+    </qresource>
+</RCC>
