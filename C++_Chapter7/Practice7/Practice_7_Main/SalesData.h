@@ -4,7 +4,15 @@
 
 struct Sales_data
 {
-    // 新成员：关于Sales_data 对象操作
+    // 新增构造函数
+    Sales_data() = default;     // 我们需要合成的默认构造函数,才用这种方法定义
+    Sales_data(const std::string &s) : bookNo(s){ }
+    Sales_data(const std::string &s, unsigned n, double p):
+                bookNo(s), unitsSold(n), revenue(p*n) { }
+    Sales_data(std::istream &);
+    /*如果编译器不支持内置初始值，则需要用构造函数初始值列表*/
+
+    // 新成员：关于 Sales_data 对象操作
     /*
     * 我们不能显示的定义 自己的 this 指针
     * 因此  std::string isbn() const 被成为 常量成员函数
@@ -16,10 +24,10 @@ struct Sales_data
     // 数据成员
     std::string bookNo;
     unsigned unitsSold = 0;
-    double revenue = 0;
+    double revenue = 0.0;
 };
 
-// Sales_data的非成员接口函数
+// Sales_data 的非成员接口函数
 Sales_data Add(const Sales_data&, const Sales_data&);
 std::ostream& Print(std::ostream&, const Sales_data&);
 std::istream& Read(std::istream&, Sales_data&);
