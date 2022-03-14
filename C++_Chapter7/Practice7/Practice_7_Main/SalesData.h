@@ -2,8 +2,9 @@
 #include <string>
 #include <iostream>
 
-struct Sales_data
+class Sales_data
 {
+public:
     // 新增构造函数
     Sales_data() = default;     // 我们需要合成的默认构造函数,才用这种方法定义
     Sales_data(const std::string &s) : bookNo(s){ }
@@ -20,7 +21,9 @@ struct Sales_data
     */
     std::string isbn() const { return bookNo; }
     Sales_data& Combine(const Sales_data&);
-    double AvgPrice() const;
+private:
+    double AvgPrice() const
+    { return unitsSold ? (revenue / unitsSold) : 0; }
     // 数据成员
     std::string bookNo;
     unsigned unitsSold = 0;
