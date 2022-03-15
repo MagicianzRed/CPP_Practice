@@ -4,6 +4,10 @@
 
 class Sales_data
 {
+    // 为 Sales_data 的非成员函数所做的友元声明
+    friend Sales_data Add(const Sales_data&, const Sales_data&);
+    friend std::ostream& Print(std::ostream&, const Sales_data&);
+    friend std::istream& Read(std::istream&, Sales_data&);
 public:
     // 新增构造函数
     Sales_data() = default;     // 我们需要合成的默认构造函数,才用这种方法定义
@@ -30,7 +34,7 @@ private:
     double revenue = 0.0;
 };
 
-// Sales_data 的非成员接口函数
+// Sales_data 的非成员接口函数, 在这里声明可以使得的用户调用这些函数
 Sales_data Add(const Sales_data&, const Sales_data&);
 std::ostream& Print(std::ostream&, const Sales_data&);
 std::istream& Read(std::istream&, Sales_data&);
