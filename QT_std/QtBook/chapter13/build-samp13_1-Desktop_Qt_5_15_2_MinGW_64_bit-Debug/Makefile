@@ -244,6 +244,7 @@ Makefile: ../samp13_1/samp13_1.pro E:/app/QT/5.15.2/mingw81_64/mkspecs/win32-g++
 		E:/app/QT/5.15.2/mingw81_64/mkspecs/features/qt_config.prf \
 		E:/app/QT/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf \
 		E:/app/QT/5.15.2/mingw81_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		E:/app/QT/5.15.2/mingw81_64/mkspecs/features/exclusive_builds.prf \
 		E:/app/QT/5.15.2/mingw81_64/mkspecs/features/toolchain.prf \
 		E:/app/QT/5.15.2/mingw81_64/mkspecs/features/default_pre.prf \
@@ -272,7 +273,6 @@ Makefile: ../samp13_1/samp13_1.pro E:/app/QT/5.15.2/mingw81_64/mkspecs/win32-g++
 		E:/app/QT/5.15.2/mingw81_64/lib/Qt5Gui.prl \
 		E:/app/QT/5.15.2/mingw81_64/lib/Qt5Core.prl \
 		E:/app/QT/5.15.2/mingw81_64/lib/qtmain.prl \
-		.qmake.stash \
 		E:/app/QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\samp13_1\samp13_1.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 E:/app/QT/5.15.2/mingw81_64/mkspecs/features/spec_pre.prf:
@@ -449,6 +449,7 @@ E:/app/QT/5.15.2/mingw81_64/mkspecs/features/qt_functions.prf:
 E:/app/QT/5.15.2/mingw81_64/mkspecs/features/qt_config.prf:
 E:/app/QT/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf:
 E:/app/QT/5.15.2/mingw81_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 E:/app/QT/5.15.2/mingw81_64/mkspecs/features/exclusive_builds.prf:
 E:/app/QT/5.15.2/mingw81_64/mkspecs/features/toolchain.prf:
 E:/app/QT/5.15.2/mingw81_64/mkspecs/features/default_pre.prf:
@@ -477,7 +478,6 @@ E:/app/QT/5.15.2/mingw81_64/lib/Qt5Widgets.prl:
 E:/app/QT/5.15.2/mingw81_64/lib/Qt5Gui.prl:
 E:/app/QT/5.15.2/mingw81_64/lib/Qt5Core.prl:
 E:/app/QT/5.15.2/mingw81_64/lib/qtmain.prl:
-.qmake.stash:
 E:/app/QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\samp13_1\samp13_1.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
