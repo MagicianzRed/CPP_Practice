@@ -8,9 +8,9 @@ void QDiceThread::run()
     mStop = false;  // 启动线程时 令 mStop = false
     mSeq = 0;       // 刷新掷骰子次数
     qsrand(QTime::currentTime().msec());    // 随机数初始化，
-    while (mStop == true)
+    while (!mStop)
     {
-        if (mPaused == false)
+        if (!mPaused)
         {
             mDiceValue = qrand();   // 获取随机数
             mDiceValue = (mDiceValue % 6) + 1;

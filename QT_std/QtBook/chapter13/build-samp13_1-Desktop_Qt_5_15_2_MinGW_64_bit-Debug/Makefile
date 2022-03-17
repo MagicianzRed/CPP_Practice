@@ -273,7 +273,8 @@ Makefile: ../samp13_1/samp13_1.pro E:/app/QT/5.15.2/mingw81_64/mkspecs/win32-g++
 		E:/app/QT/5.15.2/mingw81_64/lib/Qt5Gui.prl \
 		E:/app/QT/5.15.2/mingw81_64/lib/Qt5Core.prl \
 		E:/app/QT/5.15.2/mingw81_64/lib/qtmain.prl \
-		E:/app/QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf
+		E:/app/QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf \
+		../samp13_1/res.qrc
 	$(QMAKE) -o Makefile ..\samp13_1\samp13_1.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 E:/app/QT/5.15.2/mingw81_64/mkspecs/features/spec_pre.prf:
 E:/app/QT/5.15.2/mingw81_64/mkspecs/qdevice.pri:
@@ -479,6 +480,7 @@ E:/app/QT/5.15.2/mingw81_64/lib/Qt5Gui.prl:
 E:/app/QT/5.15.2/mingw81_64/lib/Qt5Core.prl:
 E:/app/QT/5.15.2/mingw81_64/lib/qtmain.prl:
 E:/app/QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf:
+../samp13_1/res.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\samp13_1\samp13_1.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 

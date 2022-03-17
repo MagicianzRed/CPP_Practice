@@ -28,6 +28,7 @@ public:
     QPushButton *btnStop;
     QPushButton *btnThreadFinishA;
     QPushButton *btnClear;
+    QLabel *labPic;
 
     void setupUi(QDialog *Dialog)
     {
@@ -36,25 +37,35 @@ public:
         Dialog->resize(658, 415);
         plainTextEdit = new QPlainTextEdit(Dialog);
         plainTextEdit->setObjectName(QString::fromUtf8("plainTextEdit"));
-        plainTextEdit->setGeometry(QRect(30, 130, 411, 251));
+        plainTextEdit->setGeometry(QRect(30, 130, 321, 251));
         labA = new QLabel(Dialog);
         labA->setObjectName(QString::fromUtf8("labA"));
         labA->setGeometry(QRect(40, 390, 141, 20));
         btnThreadStartA = new QPushButton(Dialog);
         btnThreadStartA->setObjectName(QString::fromUtf8("btnThreadStartA"));
         btnThreadStartA->setGeometry(QRect(20, 80, 80, 18));
+        btnThreadStartA->setCheckable(true);
+        btnThreadStartA->setChecked(false);
         btnStart = new QPushButton(Dialog);
         btnStart->setObjectName(QString::fromUtf8("btnStart"));
         btnStart->setGeometry(QRect(120, 80, 80, 18));
+        btnStart->setCheckable(true);
         btnStop = new QPushButton(Dialog);
         btnStop->setObjectName(QString::fromUtf8("btnStop"));
         btnStop->setGeometry(QRect(220, 80, 80, 18));
+        btnStop->setCheckable(true);
         btnThreadFinishA = new QPushButton(Dialog);
         btnThreadFinishA->setObjectName(QString::fromUtf8("btnThreadFinishA"));
         btnThreadFinishA->setGeometry(QRect(310, 80, 80, 18));
+        btnThreadFinishA->setCheckable(true);
         btnClear = new QPushButton(Dialog);
         btnClear->setObjectName(QString::fromUtf8("btnClear"));
         btnClear->setGeometry(QRect(410, 80, 80, 18));
+        btnClear->setCheckable(true);
+        labPic = new QLabel(Dialog);
+        labPic->setObjectName(QString::fromUtf8("labPic"));
+        labPic->setGeometry(QRect(380, 130, 251, 241));
+        labPic->setScaledContents(true);
 
         retranslateUi(Dialog);
         QObject::connect(btnClear, SIGNAL(clicked()), plainTextEdit, SLOT(clear()));
@@ -71,6 +82,7 @@ public:
         btnStop->setText(QCoreApplication::translate("Dialog", "\346\232\202\345\201\234", nullptr));
         btnThreadFinishA->setText(QCoreApplication::translate("Dialog", "\347\273\223\346\235\237\347\272\277\347\250\213", nullptr));
         btnClear->setText(QCoreApplication::translate("Dialog", "\346\270\205\347\251\272\346\226\207\346\234\254", nullptr));
+        labPic->setText(QCoreApplication::translate("Dialog", "TextLabel", nullptr));
     } // retranslateUi
 
 };

@@ -18,7 +18,7 @@
     <rect>
      <x>30</x>
      <y>130</y>
-     <width>411</width>
+     <width>321</width>
      <height>251</height>
     </rect>
    </property>
@@ -48,6 +48,12 @@
    <property name="text">
     <string>启动线程</string>
    </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
   </widget>
   <widget class="QPushButton" name="btnStart">
    <property name="geometry">
@@ -60,6 +66,9 @@
    </property>
    <property name="text">
     <string>开始</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QPushButton" name="btnStop">
@@ -74,6 +83,9 @@
    <property name="text">
     <string>暂停</string>
    </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
   </widget>
   <widget class="QPushButton" name="btnThreadFinishA">
    <property name="geometry">
@@ -87,6 +99,9 @@
    <property name="text">
     <string>结束线程</string>
    </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
   </widget>
   <widget class="QPushButton" name="btnClear">
    <property name="geometry">
@@ -99,6 +114,25 @@
    </property>
    <property name="text">
     <string>清空文本</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labPic">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>130</y>
+     <width>251</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>
