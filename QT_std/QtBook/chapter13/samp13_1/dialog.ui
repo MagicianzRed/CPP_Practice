@@ -36,7 +36,7 @@
     <string>TextLabel</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="btnThreadStartA">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -46,10 +46,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>启动线程</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="btnStart">
    <property name="geometry">
     <rect>
      <x>120</x>
@@ -59,10 +59,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>开始</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
+  <widget class="QPushButton" name="btnStop">
    <property name="geometry">
     <rect>
      <x>220</x>
@@ -72,10 +72,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>暂停</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_4">
+  <widget class="QPushButton" name="btnThreadFinishA">
    <property name="geometry">
     <rect>
      <x>310</x>
@@ -85,10 +85,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>结束线程</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_5">
+  <widget class="QPushButton" name="btnClear">
    <property name="geometry">
     <rect>
      <x>410</x>
@@ -98,10 +98,27 @@
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>清空文本</string>
    </property>
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>btnClear</sender>
+   <signal>clicked()</signal>
+   <receiver>plainTextEdit</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>449</x>
+     <y>88</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>235</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

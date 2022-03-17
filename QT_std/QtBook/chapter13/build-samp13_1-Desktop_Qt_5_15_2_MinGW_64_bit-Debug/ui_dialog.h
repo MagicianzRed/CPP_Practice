@@ -23,11 +23,11 @@ class Ui_Dialog
 public:
     QPlainTextEdit *plainTextEdit;
     QLabel *labA;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
-    QPushButton *pushButton_4;
-    QPushButton *pushButton_5;
+    QPushButton *btnThreadStartA;
+    QPushButton *btnStart;
+    QPushButton *btnStop;
+    QPushButton *btnThreadFinishA;
+    QPushButton *btnClear;
 
     void setupUi(QDialog *Dialog)
     {
@@ -40,23 +40,24 @@ public:
         labA = new QLabel(Dialog);
         labA->setObjectName(QString::fromUtf8("labA"));
         labA->setGeometry(QRect(40, 390, 141, 20));
-        pushButton = new QPushButton(Dialog);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(20, 80, 80, 18));
-        pushButton_2 = new QPushButton(Dialog);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(120, 80, 80, 18));
-        pushButton_3 = new QPushButton(Dialog);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(220, 80, 80, 18));
-        pushButton_4 = new QPushButton(Dialog);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setGeometry(QRect(310, 80, 80, 18));
-        pushButton_5 = new QPushButton(Dialog);
-        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(410, 80, 80, 18));
+        btnThreadStartA = new QPushButton(Dialog);
+        btnThreadStartA->setObjectName(QString::fromUtf8("btnThreadStartA"));
+        btnThreadStartA->setGeometry(QRect(20, 80, 80, 18));
+        btnStart = new QPushButton(Dialog);
+        btnStart->setObjectName(QString::fromUtf8("btnStart"));
+        btnStart->setGeometry(QRect(120, 80, 80, 18));
+        btnStop = new QPushButton(Dialog);
+        btnStop->setObjectName(QString::fromUtf8("btnStop"));
+        btnStop->setGeometry(QRect(220, 80, 80, 18));
+        btnThreadFinishA = new QPushButton(Dialog);
+        btnThreadFinishA->setObjectName(QString::fromUtf8("btnThreadFinishA"));
+        btnThreadFinishA->setGeometry(QRect(310, 80, 80, 18));
+        btnClear = new QPushButton(Dialog);
+        btnClear->setObjectName(QString::fromUtf8("btnClear"));
+        btnClear->setGeometry(QRect(410, 80, 80, 18));
 
         retranslateUi(Dialog);
+        QObject::connect(btnClear, SIGNAL(clicked()), plainTextEdit, SLOT(clear()));
 
         QMetaObject::connectSlotsByName(Dialog);
     } // setupUi
@@ -65,11 +66,11 @@ public:
     {
         Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "Dialog", nullptr));
         labA->setText(QCoreApplication::translate("Dialog", "TextLabel", nullptr));
-        pushButton->setText(QCoreApplication::translate("Dialog", "PushButton", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("Dialog", "PushButton", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("Dialog", "PushButton", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("Dialog", "PushButton", nullptr));
-        pushButton_5->setText(QCoreApplication::translate("Dialog", "PushButton", nullptr));
+        btnThreadStartA->setText(QCoreApplication::translate("Dialog", "\345\220\257\345\212\250\347\272\277\347\250\213", nullptr));
+        btnStart->setText(QCoreApplication::translate("Dialog", "\345\274\200\345\247\213", nullptr));
+        btnStop->setText(QCoreApplication::translate("Dialog", "\346\232\202\345\201\234", nullptr));
+        btnThreadFinishA->setText(QCoreApplication::translate("Dialog", "\347\273\223\346\235\237\347\272\277\347\250\213", nullptr));
+        btnClear->setText(QCoreApplication::translate("Dialog", "\346\270\205\347\251\272\346\226\207\346\234\254", nullptr));
     } // retranslateUi
 
 };
