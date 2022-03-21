@@ -302,6 +302,11 @@
 - #### 修改文件所有者 chown
 
   - **基本语法**
-    - **chown newowner  文件/目录  改变所有者**
-    - **chown newowner:newgroup  文件/目录  改变所有者和所在组**
+    - **chown newowner  文件/目录  （改变所有者）**
+    - **chown newowner:newgroup  文件/目录  （改变所有者和所在组）**
       - -R 如果是目录 则使其下所有子文件或者目录递归生效
+
+- #### 修改文件/目录所在组 chgrp
+
+  - **基本语法**
+    - **chgrp newgroup 文件/目录（改变所在组）**
