@@ -25,7 +25,6 @@
         <file>res/PlayLevelSceneBg.png</file>
         <file>res/TapButtonSound.wav</file>
         <file>res/Title.png</file>
-        <file>res/window.png</file>
         <file>res/winGain.mp3</file>
     </qresource>
 </RCC>

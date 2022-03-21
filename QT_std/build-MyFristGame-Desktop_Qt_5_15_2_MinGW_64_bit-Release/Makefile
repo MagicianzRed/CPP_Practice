@@ -244,6 +244,7 @@ Makefile: ../MyFristGame/MyFristGame.pro ../../../app/QT/5.15.2/mingw81_64/mkspe
 		../../../app/QT/5.15.2/mingw81_64/mkspecs/features/qt_config.prf \
 		../../../app/QT/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf \
 		../../../app/QT/5.15.2/mingw81_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../app/QT/5.15.2/mingw81_64/mkspecs/features/exclusive_builds.prf \
 		../../../app/QT/5.15.2/mingw81_64/mkspecs/features/toolchain.prf \
 		../../../app/QT/5.15.2/mingw81_64/mkspecs/features/default_pre.prf \
@@ -274,7 +275,6 @@ Makefile: ../MyFristGame/MyFristGame.pro ../../../app/QT/5.15.2/mingw81_64/mkspe
 		../../../app/QT/5.15.2/mingw81_64/lib/Qt5Network.prl \
 		../../../app/QT/5.15.2/mingw81_64/lib/Qt5Core.prl \
 		../../../app/QT/5.15.2/mingw81_64/lib/qtmain.prl \
-		.qmake.stash \
 		../../../app/QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf \
 		../MyFristGame/ress.qrc
 	$(QMAKE) -o Makefile ..\MyFristGame\MyFristGame.pro -spec win32-g++ "CONFIG+=qtquickcompiler"
@@ -452,6 +452,7 @@ Makefile: ../MyFristGame/MyFristGame.pro ../../../app/QT/5.15.2/mingw81_64/mkspe
 ../../../app/QT/5.15.2/mingw81_64/mkspecs/features/qt_config.prf:
 ../../../app/QT/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf:
 ../../../app/QT/5.15.2/mingw81_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../app/QT/5.15.2/mingw81_64/mkspecs/features/exclusive_builds.prf:
 ../../../app/QT/5.15.2/mingw81_64/mkspecs/features/toolchain.prf:
 ../../../app/QT/5.15.2/mingw81_64/mkspecs/features/default_pre.prf:
@@ -482,7 +483,6 @@ Makefile: ../MyFristGame/MyFristGame.pro ../../../app/QT/5.15.2/mingw81_64/mkspe
 ../../../app/QT/5.15.2/mingw81_64/lib/Qt5Network.prl:
 ../../../app/QT/5.15.2/mingw81_64/lib/Qt5Core.prl:
 ../../../app/QT/5.15.2/mingw81_64/lib/qtmain.prl:
-.qmake.stash:
 ../../../app/QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf:
 ../MyFristGame/ress.qrc:
 qmake: FORCE

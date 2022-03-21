@@ -143,7 +143,6 @@ debug/qrc_ress.cpp: ../MyFristGame/ress.qrc \
 		../MyFristGame/res/MenuSceneStartButton.png \
 		../MyFristGame/res/Coin0006.png \
 		../MyFristGame/res/PlayLevelSceneBg.png \
-		../MyFristGame/res/window.png \
 		../MyFristGame/res/Coin0007.png \
 		../MyFristGame/res/Coin0008.png \
 		../MyFristGame/res/BackButtonSelected.png \
@@ -1363,6 +1362,23 @@ debug/mainwindow.o: ../MyFristGame/mainwindow.cpp ../MyFristGame/mainwindow.h \
 		../MyFristGame/mycoin.h \
 		../../../app/QT/5.15.2/mingw81_64/include/QtCore/QDebug \
 		ui_mainwindow.h \
+		../../../app/QT/5.15.2/mingw81_64/include/QtCore/QVariant \
+		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/QAction \
+		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/qaction.h \
+		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h \
+		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/QApplication \
+		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
+		../../../app/QT/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
+		../../../app/QT/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
+		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/qdesktopwidget.h \
+		../../../app/QT/5.15.2/mingw81_64/include/QtGui/qguiapplication.h \
+		../../../app/QT/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
+		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/QMenu \
+		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/qmenu.h \
+		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/QMenuBar \
+		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/qmenubar.h \
+		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/QStatusBar \
+		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h \
 		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/QHBoxLayout \
 		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h \
 		../../../app/QT/5.15.2/mingw81_64/include/QtWidgets/qlayout.h \
