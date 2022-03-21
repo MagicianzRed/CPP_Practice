@@ -2,6 +2,8 @@
 #define DIALOG_H
 
 #include <QDialog>
+#include <QTimer>
+
 #include "qdicethread.h"
 QT_BEGIN_NAMESPACE
 namespace Ui { class Dialog; }
@@ -28,8 +30,11 @@ private slots:
 
     void on_btnThreadStartA_clicked();
 
+    void on_TimeOut();
 private:
+    int mSeq, mDiceValue;
     QDiceThread threadA;
+    QTimer mTimer;  // 定时器
     Ui::Dialog *ui;
 protected:
     void closeEvent(QCloseEvent *event);

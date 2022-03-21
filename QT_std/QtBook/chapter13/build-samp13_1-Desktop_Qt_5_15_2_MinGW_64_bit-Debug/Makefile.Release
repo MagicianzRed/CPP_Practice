@@ -232,11 +232,15 @@ release/moc_dialog.cpp: ../samp13_1/dialog.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QTimer \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qtimer.h \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qbasictimer.h \
 		../samp13_1/qdicethread.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QThread \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qthread.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qdeadlinetimer.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qelapsedtimer.h \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QMutex \
 		release/moc_predefs.h \
 		E:/app/QT/5.15.2/mingw81_64/bin/moc.exe
 	E:\app\QT\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include E:/study/QT_std/QtBook/chapter13/build-samp13_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/release/moc_predefs.h -IE:/app/QT/5.15.2/mingw81_64/mkspecs/win32-g++ -IE:/study/QT_std/QtBook/chapter13/samp13_1 -IE:/app/QT/5.15.2/mingw81_64/include -IE:/app/QT/5.15.2/mingw81_64/include/QtWidgets -IE:/app/QT/5.15.2/mingw81_64/include/QtGui -IE:/app/QT/5.15.2/mingw81_64/include/QtANGLE -IE:/app/QT/5.15.2/mingw81_64/include/QtCore -I. -IE:/app/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IE:/app/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IE:/app/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IE:/app/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IE:/app/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IE:/app/QT/Tools/mingw810_64/x86_64-w64-mingw32/include ..\samp13_1\dialog.h -o release\moc_dialog.cpp
@@ -298,6 +302,7 @@ release/moc_qdicethread.cpp: ../samp13_1/qdicethread.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qobject_impl.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qdeadlinetimer.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qelapsedtimer.h \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QMutex \
 		release/moc_predefs.h \
 		E:/app/QT/5.15.2/mingw81_64/bin/moc.exe
 	E:\app\QT\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include E:/study/QT_std/QtBook/chapter13/build-samp13_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/release/moc_predefs.h -IE:/app/QT/5.15.2/mingw81_64/mkspecs/win32-g++ -IE:/study/QT_std/QtBook/chapter13/samp13_1 -IE:/app/QT/5.15.2/mingw81_64/include -IE:/app/QT/5.15.2/mingw81_64/include/QtWidgets -IE:/app/QT/5.15.2/mingw81_64/include/QtGui -IE:/app/QT/5.15.2/mingw81_64/include/QtANGLE -IE:/app/QT/5.15.2/mingw81_64/include/QtCore -I. -IE:/app/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IE:/app/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IE:/app/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IE:/app/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IE:/app/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IE:/app/QT/Tools/mingw810_64/x86_64-w64-mingw32/include ..\samp13_1\qdicethread.h -o release\moc_qdicethread.cpp
@@ -430,11 +435,15 @@ release/main.o: ../samp13_1/main.cpp ../samp13_1/dialog.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QTimer \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qtimer.h \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qbasictimer.h \
 		../samp13_1/qdicethread.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QThread \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qthread.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qdeadlinetimer.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qelapsedtimer.h \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QMutex \
 		E:/app/QT/5.15.2/mingw81_64/include/QtWidgets/QApplication \
 		E:/app/QT/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
@@ -549,11 +558,15 @@ release/dialog.o: ../samp13_1/dialog.cpp ../samp13_1/dialog.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QTimer \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qtimer.h \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qbasictimer.h \
 		../samp13_1/qdicethread.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QThread \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qthread.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qdeadlinetimer.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qelapsedtimer.h \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QMutex \
 		ui_dialog.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QVariant \
 		E:/app/QT/5.15.2/mingw81_64/include/QtWidgets/QApplication \
@@ -583,7 +596,8 @@ release/dialog.o: ../samp13_1/dialog.cpp ../samp13_1/dialog.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
 		E:/app/QT/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
-		E:/app/QT/5.15.2/mingw81_64/include/QtGui/qicon.h
+		E:/app/QT/5.15.2/mingw81_64/include/QtGui/qicon.h \
+		E:/app/QT/5.15.2/mingw81_64/include/QtGui/QPixmap
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\dialog.o ..\samp13_1\dialog.cpp
 
 release/qdicethread.o: ../samp13_1/qdicethread.cpp ../samp13_1/qdicethread.h \
@@ -643,6 +657,7 @@ release/qdicethread.o: ../samp13_1/qdicethread.cpp ../samp13_1/qdicethread.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qobject_impl.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qdeadlinetimer.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qelapsedtimer.h \
+		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QMutex \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/QTime \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
 		E:/app/QT/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
