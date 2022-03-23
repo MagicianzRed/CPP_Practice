@@ -22,14 +22,16 @@ public:
     /*
     * 7.1.4 练习中的 7.15
     */
-    Person(std::string userName, std::string userAddress) : name(userName), addresss(userAddress) { }
-    Person() : name("胡无敌"), addresss("银河系") { }
-    Person(std::istream& is);
+    Person(std::string userName, std::string userAddress) : name(userName), addresss(userAddress)
+    { std::cout << "委托构造函数" << std::endl; }
+    Person() : Person("胡无敌", "银河系") { std::cout << "使用了默认构造函数" << std::endl; }
+    Person(std::istream& is) : Person() { Read(is, *this); std::cout << "使用了cin版本的构造函数" << std::endl; };
     /*
     * 7.1.2 练习中的 7.4-7.5
     */
     const std::string GetName() const { return name; }
     const std::string GetAddress() const { return addresss; }
+
     std::ostream& PrintUserMassage(std::ostream& os, const Person& item) 
     { return PrintMessage(os, item); }
 };
@@ -39,3 +41,19 @@ public:
 */
 
 
+
+/// <summary>
+/// 7.3.1 练习 7.23 - 7.24
+/// </summary>
+class Screen
+{
+    typedef int sb;
+private:
+    sb xPos = 0;
+    sb yPos = 0;
+    std::string contents;
+public:
+    //Screen() = default;
+    //Screen(int x, int y) : xPos(x), yPos(y), contents("") { }
+    //explicit Screen(int x, int y, char s) : xPos(x), yPos(y), contents(x * y, s) { }
+};

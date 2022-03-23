@@ -1,9 +1,5 @@
 #include "PrcticeFuction.h"
 
-Person::Person(std::istream& is)
-{
-    Read(is, *this);
-}
 
 std::istream& Person::Read(std::istream& is, Person& item)
 {
