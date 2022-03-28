@@ -2,12 +2,20 @@
 //
 
 #include <iostream>
-#include <fstream>
+#include "PracticeFunction.h"
 
-int main()
+int main(int argc, char* argv[])
 {
-    using std::ofstream;
-    
+    using std::cout;
+    using std::cin;
+    using std::endl;
+    using std::vector; using std::string;
+
+    string filePath("E:/study/C++_Chapter8_IO/Practice8/Practice8_Main/asdfasdf/sbchishi.txt");
+    vector<string> showSth = P8_4(filePath);
+    P8_7(showSth);
+
+    return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
