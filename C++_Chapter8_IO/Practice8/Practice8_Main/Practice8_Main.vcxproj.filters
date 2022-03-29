@@ -27,9 +27,18 @@
     <ClCompile Include="8-2-2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="8-3-1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8-3-2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonInfo.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

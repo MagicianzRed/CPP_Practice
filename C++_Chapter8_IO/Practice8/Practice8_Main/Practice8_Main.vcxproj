@@ -142,9 +142,12 @@
     <ClCompile Include="8-1-2.cpp" />
     <ClCompile Include="8-2-1.cpp" />
     <ClCompile Include="8-2-2.cpp" />
+    <ClCompile Include="8-3-1.cpp" />
+    <ClCompile Include="8-3-2.cpp" />
     <ClCompile Include="Practice8_Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="PersonInfo.h" />
     <ClInclude Include="PracticeFunction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

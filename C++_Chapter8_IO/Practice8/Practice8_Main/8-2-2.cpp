@@ -14,9 +14,9 @@ void P8_7(std::vector<std::string> outStrStream)
     // 以 追加到文件末尾 和 写的方式打开 
     ofstream outFileStream(outString, ofstream::out | ofstream::app);
     
+    /*将 vector 中的内容写入到 输出文件流*/
     for (auto& i : outStrStream)
     {
         outFileStream << i;
     }
-    
 }
