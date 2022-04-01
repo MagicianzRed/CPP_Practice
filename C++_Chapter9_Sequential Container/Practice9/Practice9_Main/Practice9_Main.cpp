@@ -7,19 +7,23 @@ int main()
 {
     using std::vector;
     using std::list;
+    using std::forward_list;
+    using std::string;
     using std::cout;
     using std::endl;
+
+    forward_list<string> lsts = { "aas", "bd", "cs" };
+    string strA("asfasfasasfasfasfasfafs");
+    string strB("saasdsad");
+
+
+    vector<char> sss = {'2','2','q','5'};
+    
+    string str();
+    
+    sss.reserve(1024);
     
 
-
-    vector<int> arr = { 1,2,3,4,5,6,7,8,9 };
-
-    P9_20();
-    int v = 10;
-    //if (P9_4(beg, end, v))
-    //{
-    //    std::cout << "好";
-    //}
     return 0;
 }
 
